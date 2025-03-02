@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-base;
+  }
+
+  h2 {
+    @apply text-lg;
+  }
+
+}
